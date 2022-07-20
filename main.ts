@@ -3,8 +3,8 @@ basic.forever(function () {
     basic.showNumber(input.temperature())
     pins.servoWritePin(AnalogPin.P0, pins.map(
     input.temperature(),
-    0,
-    109,
+    -5,
+    50,
     0,
     180
     ))
